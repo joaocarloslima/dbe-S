@@ -51,6 +51,10 @@ public class Setup {
 	public String toString() {
 		return "Setup [name=" + name + ", description=" + description + ", price=" + price + "]";
 	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
 	
 	
 }
